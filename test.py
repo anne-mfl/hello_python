@@ -51,7 +51,7 @@ print(list(result))
 numeros = [1, 2, 3, 4, 5]
 result = filter(lambda x: x > 5, numeros)
 
-# -----r-educe-----
+# -----reduce-----
 from functools import reduce
 
 numeros = [1, 2, 3, 4, 5]
