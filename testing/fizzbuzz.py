@@ -7,3 +7,10 @@ def fizzbuzz(number):
         return "Buzz"
     else:
         return number
+      
+      
+def fizzbuzz_list(list):
+  ans = []
+  for currentNumber in list:
+      ans.append(fizzbuzz(currentNumber))
+  return ans
